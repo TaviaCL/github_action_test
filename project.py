@@ -1,8 +1,6 @@
-print('Hello')
+class Player:
+    def __init__(self,name):
+        self.name = name
 
-val = 1 + 2
-
-str = '1+2 ='
-
-
-print("{}{}".format(str, val))
+    def setAge(self,age):
+        self.age = age
