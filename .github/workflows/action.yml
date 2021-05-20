@@ -25,4 +25,4 @@ jobs:
     with:
      python-version: 3.8
   - name: Run tests
-    run: python project_test.py test
+    run: pytest
