@@ -9,6 +9,6 @@ class Testplayer(TestCase):
 
     def test_set_age(self):
         self.p.setAge(10)
-        self.assertEqual(self.p.age, 10)
+        self.assertEqual(self.p.age, 11)
         self.p.setAge(15)
         self.assertEqual(self.p.age, 15)
