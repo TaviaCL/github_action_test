@@ -12,3 +12,7 @@ class Testplayer(TestCase):
         self.assertEqual(self.p.age, 10)
         self.p.setAge(15)
         self.assertEqual(self.p.age, 15)
+        
+ 
+ if __name__ == "__main__":
+    unittest.main()
